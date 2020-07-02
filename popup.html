@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysée Eve</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+        }
+
+        h1 {
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: forestgreen;
+        }
+
+        a:link, a:visited {
+            color: black;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img {
+            width: 30px;
+            }
+
+            .modal-header {
+                align-items: center;
+                border-bottom: 0.4px solid forestgreen;
+            }
+
+            .modal-content {
+                padding: 1 22px;
+                border-bottom: 0.4px solid forestgreen;
+            }
+
+            .modal-icon {
+                border-top: 0.5px solid forestgreen;
+                height: 50px;
+                width: 100%;
+            }
+
+            .logo {
+                padding: 16px;
+            }
+
+            .logo-icon {
+                vertical-align: text-bottom;
+                margin: 12px;
+            }
+
+            .version {
+                color: yellowgreen;
+                font-size: 18px;
+            }
+
+            .flex-container {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 22px;
+            }
+
+            .flex {
+                opacity: 1;
+                transition: opacity 0.2s ease-in-out;
+                width: 120px;
+            }
+
+            .flex:hover {
+                opacity: 0.4;
+            }
+
+            .flex .fa {
+                font-size: 40px;
+                color: forestgreen;
+            }
+    </style>
+</head>
+<body>
+     <div class="modal-header">
+         <h1 class="Logo">
+             <img src="images/Extension_logo.jpeg" alt="Logo" class="logo-icon"> Elysée Eve <span class="version">(1.0.0)</span>
+         </h1>
+     </div>
+     <div class="modal-content">
+         <p>Easily access Elysée Eve content</p>
+     </div>
+     <div class="flex-container">
+         <div class="flex">
+             <a href="https://www.intra.codeloccol.org/elysée.eve">
+                <img src="https://pbs.twimg.com/profile_images/1154041006515318785/EOOE4bno_400x400.jpg" alt="">
+            </a>
+         </div>
+         <div class="flex">
+            <a href="https://www.facebook.com/evatecno">
+                <i class="fa fa-facebook"></i>
+           </a>
+        </div>
+        <div class="flex">
+            <a href="https://www.github.com/e6690">
+               <i class="fa fa-github"></i>
+           </a>
+        </div>
+        <div class="flex">
+            <a href="https://www.twitter.com/elyséeeve">
+               <i class="fa fa-twitter"></i>
+           </a>
+        </div>
+        <div class="flex">
+            <a href="https://www.youtube.com/elyséeeve">
+               <i class="fa fa-youtube"></i>
+           </a>
+        </div>
+     </div>
+
+     <script src="popup.js"></script>
+</body>
+</html>
